@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Module-3 Assignment-1</title>
+    <title>Module-3 Divs forms tables</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
@@ -37,36 +37,39 @@
         </div>
         <div class="cut"></div>
         <br>
-        <label class="subtitle2" for="text">Programming Experience</label>
-        <div class="">
-          <input  class="" type="radio" id="beginner" name="beginner" required/>
-          <label for="text"> - Beginner</label><br />
-          <input  class="" type="radio" id="intermediate" name="inetermediate" required/>
-          <label for="text"> - intermediate</label><br />
-          <input class="" type="radio" id="expert" name="expert" required />
-          <label for="text"> - expert</label><br />
+
+        <label class="subtitle" >Programming Experience</label>
+<br>
+
+        <label class="form-control">
+            <input type="radio" name="radio" />
+            Beginner
+            <input type="radio" name="radio" />
+            Intermediate
+            <input type="radio" name="radio" />
+            Expert
+        </label>
+
+<br>
+        
+
+        <div class="table-blk">
+          <table class="table" style="width:100%">
+            <tr class="tr1">
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email Address</th>
+            </tr>
+            <tr class="tr2">
+              <td>Jaytee</td>
+              <td>Thomas</td>
+              <td>jt.aws.cloud@gmail.com</td>
+            </tr>
+          </table>
           <input class="submit" type="submit" value="Submit" />
         </div>
-        </form>
-        
-        
-    <div class="table-container"> 
-      <table class="table">
-        <tr class="tr1">
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
-        </tr>
-        
-        <tr class="tr2">
-          <td>Jaytee</td>
-          <td>Thomas</td>
-          <td>jt.aws.cloud@gmail.com</td>
-        </tr>
-      </table>
-        </div>
-        
-       
+    </form>  
+    </div>     
     </div>
   </body>
 </html>
